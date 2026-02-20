@@ -1,26 +1,27 @@
 {
   "expo": {
-    "name": "parental-control-app-REACT2",
-    "slug": "parental-control-app-REACT2",
+    "name": "Parental Control",
+    "slug": "parental-control-app2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#5B4BA0"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.parentalcontrol.app2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#5B4BA0"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.parentalcontrol.app2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
