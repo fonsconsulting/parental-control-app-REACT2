@@ -8,7 +8,7 @@ web-build/
 *.p12
 *.key
 *.mobileprovision
-*.orig.*
-web-build/
 .env
 .env.local
+android/
+ios/
